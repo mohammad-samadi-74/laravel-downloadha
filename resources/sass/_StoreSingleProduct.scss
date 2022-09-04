@@ -1,0 +1,159 @@
+#singleProduct {
+
+    .row{
+        background-color: #ffffff1c;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.34) !important;
+        padding: 1rem 0;
+
+        .images {
+            direction: ltr;
+            padding: 0 1rem;
+
+            img {
+                margin: 0 auto;
+            }
+
+        }
+
+        .info {
+            direction: rtl;
+            h4 {
+                font-size: 19px;
+                line-height: 2rem;
+                color: #000;
+                border-bottom: 2px solid #e6e6e6;
+                padding-bottom: 1rem;
+            }
+
+            .post-views {
+                .send-rate {
+                    a {
+                        text-decoration: none;
+                        color: #a8a8a8;
+                        font-size: 22px;
+                        -webkit-transition: all .6s;
+                        -moz-transition: all .6s;
+                        -ms-transition: all .6s;
+                        -o-transition: all .6s;
+                        transition: all .6s;
+                        margin-left: .5rem;
+                    }
+
+                    .like:hover {
+                        color: #83ce10;
+                    }
+
+                    .dislike:hover {
+                        color: #ee5d5d;
+                    }
+                }
+
+                .stars {
+                    .container {
+                        position: relative;
+
+                        svg {
+                            font-size: 22px;
+                            color: #ebe8e8;
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                        }
+
+                        .star, .half-star, quarter-star {
+                            z-index: 2;
+                            color: #ff8c00;
+                        }
+                    }
+                }
+
+                .rate {
+                    margin: 0 10px;
+                    font-size: 12.5px;
+                    line-height: 23.5px;
+                    font-weight: 700;
+                    color: #6c6c6c;
+
+                    svg {
+                        opacity: .5;
+                    }
+                }
+            }
+
+            .categories {
+                line-height: 1rem;
+                font-size: 16px;
+                color: #686868;
+                span {
+                    margin-left: .5rem;
+                }
+
+                .category{
+                    text-decoration: none;
+
+                }
+            }
+
+            .more{
+                h5{
+                    font-size: 1rem;
+                    margin-top: 1rem;
+                    font-weight: 400;
+                    margin-bottom: .5rem;
+                    color: #313131;
+                }
+
+                .attributes{
+                    padding: 0;
+                    font-size: 14px;
+                    color: #919191;
+                    list-style: circle;
+
+                    li{
+                        color: #7c7c7c;
+                        list-style: none;
+                        margin: 0px;
+                    }
+                }
+
+                .description{
+                    font-size: 14px;
+                    line-height: 1.5rem;
+                    text-align: justify;
+                    margin-top: 1.5rem;
+
+                    .last-update{
+                        font-size: 14px;
+
+                        span{
+                            font-weight: 500;
+                            margin-left: .5rem;
+                            color: #646464;
+                        }
+                    }
+                }
+            }
+        }
+
+        .order{
+            background-color: #f5f5f5;
+            border: 1px solid #e4e4e4;
+            border-radius: 8px;
+            padding: 1rem;
+
+            h5{
+                font-size: 16px;
+                font-weight: 600;
+                color: #3e3c3c;
+                padding: .5rem 0;
+                display: inline-block;
+                margin-left: .5rem;
+            }
+
+            span{
+                font-size: 12px;
+            }
+        }
+
+    }
+}

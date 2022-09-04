@@ -1,0 +1,251 @@
+@font-face {
+  font-family: "iran-sanse";
+  src: url("/fonts/Iranian Sans.ttf?8c2ed8fb0154947263c5f9bfb8d49574"), url("/fonts/Iranian Sans.eot?6c33a8253d37f8c1052b792146797806"), url(/fonts/Iranian_Sans.woff?b59f278d306bfbe3d5a0c027199e585b);
+}
+@font-face {
+  font-family: Vazir;
+  src: url(/fonts/Vazir.eot?e16b14e500b2f4e6c5413514a00a6467);
+  src: url(/fonts/Vazir.eot?e16b14e500b2f4e6c5413514a00a6467) format("embedded-opentype"), url(/fonts/Vazir.woff2?c9f007a48cb77ab67c2495e35ab4a903) format("woff2"), url(/fonts/Vazir.woff?9b82bf46c4f3717b2016f5d980357ca2) format("woff"), url(/fonts/Vazir.ttf?86fc40c3d5016badb590b3a820fb2529) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(/fonts/Vazir-Bold.eot?ded93117fa76f99d882e3ee25821e54f);
+  src: url(/fonts/Vazir-Bold.eot?ded93117fa76f99d882e3ee25821e54f) format("embedded-opentype"), url(/fonts/Vazir-Bold.woff2?e17e5d28e9cb0a65c55d82c02b3aeb37) format("woff2"), url(/fonts/Vazir-Bold.woff?3305d4003bd27a10827bc9dddd3fa47d) format("woff"), url(/fonts/Vazir-Bold.ttf?1ec582b91fa8d13dd718db059a51d33c) format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(/fonts/Vazir-Light.eot?06e0fe52d08623f11150caeb89139877);
+  src: url(/fonts/Vazir-Light.eot?06e0fe52d08623f11150caeb89139877) format("embedded-opentype"), url(/fonts/Vazir-Light.woff2?04e1640231988684a93b23a798623524) format("woff2"), url(/fonts/Vazir-Light.woff?9eec7bb9ce6b32f0da6d9d9a7ea2bbcb) format("woff"), url(/fonts/Vazir-Light.ttf?dac59184b319f21c58c7c83a69458e8f) format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(/fonts/Vazir-Medium.eot?43e6c88cadb895e831b2da4ac3c9f066);
+  src: url(/fonts/Vazir-Medium.eot?43e6c88cadb895e831b2da4ac3c9f066) format("embedded-opentype"), url(/fonts/Vazir-Medium.woff2?b183872718018f71ceff0ed66fbb4fe5) format("woff2"), url(/fonts/Vazir-Medium.woff?4fcac6160bf7dd8fdac06f9a21ddd6a1) format("woff"), url(/fonts/Vazir-Medium.ttf?82c1133e14b3fb15466febae538d47fd) format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(/fonts/Vazir-Thin.eot?3fc2bef741e8da043f338af7ab07fb73);
+  src: url(/fonts/Vazir-Thin.eot?3fc2bef741e8da043f338af7ab07fb73) format("embedded-opentype"), url(/fonts/Vazir-Thin.woff2?7b6e821c507cd937908973ee413785d9) format("woff2"), url(/fonts/Vazir-Thin.woff?7882bfe59ed0331bfc047fdc26448842) format("woff"), url(/fonts/Vazir-Thin.ttf?e3f8d0d5d88398864b3fefcb44d9130a) format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(/fonts/Vazir-Black.eot?1a73cdb907a40c5c61f8f0966fbfbf3c);
+  src: url(/fonts/Vazir-Black.eot?1a73cdb907a40c5c61f8f0966fbfbf3c) format("embedded-opentype"), url(/fonts/Vazir-Black.woff2?9aa8433af81dbd4c56b5cd2de2cc5824) format("woff2"), url(/fonts/Vazir-Black.woff?0bbd080ff955d584373f43f56bd50b1c) format("woff"), url(/fonts/Vazir-Black.ttf?18bc4ee7ec15c060c871ff73193a5b6b) format("truetype");
+  font-weight: 900;
+}
+.font-ir-sans {
+  font-family: iran-sanse;
+  font-weight: 400;
+}
+
+.font-vazir {
+  font-family: vazir;
+}
+
+.font-8 {
+  font-size: 8px;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.font-40 {
+  font-size: 40px;
+}
+
+.font-50 {
+  font-size: 50px;
+}
+
+.font-60 {
+  font-size: 60px;
+}
+
+.shadow-md {
+  box-shadow: 0 3px 6px 2px rgba(40, 40, 40, 0.37) !important;
+}
+
+.bg-nav {
+  background-color: #494d61;
+}
+
+.bg-nav-hover {
+  background-color: hsla(0deg, 0%, 100%, 0.1);
+}
+
+.bg-slider-dark {
+  background-color: #252525;
+}
+
+.text-title-blue {
+  color: #00b4fa;
+}
+
+.bg-sidebar-blue {
+  background-color: #028ed2;
+}
+
+.bg-sidebar-lightblue {
+  background-color: #039be6;
+}
+
+.very-light-border {
+  border-color: #f1f3f4 !important;
+}
+
+.icon-orange {
+  color: #ff9344 !important;
+}
+
+.w-33 {
+  width: 33.3%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.text-yellow {
+  color: #f6993f;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #25292d;
+  border: 1px solid #29f495;
+  border-radius: 4px;
+  cursor: default;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 0 7px;
+}
+
+#admin-posts {
+  text-align: right;
+  direction: rtl;
+}
+#admin-posts .posts-table tr {
+  font-size: 12px;
+}
+#admin-posts .posts-table tr td, #admin-posts .posts-table tr th {
+  padding: 0.5rem;
+}
+#admin-posts .posts-table tr td:first-child {
+  min-width: 100px;
+}
+#admin-posts .posts-table .tr:last-child {
+  border-bottom: 1px solid black;
+}
+#admin-posts .posts-table .image-show {
+  vertical-align: middle;
+}
+#admin-posts .posts-table .image-show img {
+  max-heght: 200px;
+}
+
+.comment {
+  background-color: white;
+}
+.comment .title span {
+  font-size: 14px;
+  line-height: 28px;
+  color: rgb(118, 124, 140);
+}
+.comment .title b {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #333;
+}
+.comment .content {
+  padding: 10px;
+  margin: 0 0 11px;
+  background-color: #f8f9fd;
+}
+.comment .content p {
+  word-wrap: anywhere;
+  word-break: break-word;
+  line-height: 28px;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+}
+.comment .content .reply svg, .comment .content .reply span {
+  font-size: 14px;
+  color: #747d8e;
+}
+.comment .content .reply a {
+  text-decoration: none;
+  color: #000;
+}
+
+.search input[name=search] {
+  background-color: #f2f4f6;
+  border: 0px;
+}
+.search .input-group-append {
+  background-color: #f2f4f6;
+}
+.search .input-group-append i {
+  color: #747475;
+}
+.search select#type, .search select#type option {
+  background-color: #f2f4f6;
+  color: #747475;
+  border-color: transparent;
+  border-radius: 0px;
+}
+
+.sidebar .titles-container {
+  display: inline-flex !important;
+  justify-content: space-between !important;
+  width: 80% !important;
+}
+.sidebar .titles-container .badge {
+  line-height: 1.6 !important;
+}
+
+.alert-warning, .alert-warning a, .bg-warning, .bg-warning a, .label-warning, .label-warning a {
+  color: #fff !important;
+}
+
+.select2.select2-container {
+  width: 100% !important;
+}

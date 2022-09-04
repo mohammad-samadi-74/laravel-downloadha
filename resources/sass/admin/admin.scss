@@ -1,0 +1,50 @@
+
+@import '../variables';
+@import '../classes';
+
+//plugins options
+@import 'plogins-options';
+
+//admin panel
+@import 'posts';
+@import 'comments';
+
+//search
+.search{
+    input[name="search"]{
+        background-color: #f2f4f6;
+        border: 0px;
+    }
+    .input-group-append{
+        background-color: #f2f4f6;
+        i{
+            color: #747475;
+        }
+    }
+    select#type ,select#type option{
+        background-color: #f2f4f6;
+        color: #747475;
+        border-color: transparent;
+        border-radius: 0px;
+    }
+}
+
+.sidebar{
+    .titles-container {
+        display: inline-flex !important;
+        justify-content: space-between !important;
+        width: 80% !important;
+        .badge{
+            line-height: 1.6 !important;
+        }
+    }
+
+}
+.alert-warning, .alert-warning a, .bg-warning, .bg-warning a, .label-warning, .label-warning a {
+    color: #fff !important;
+}
+.select2.select2-container{
+    width: 100% !important;
+}
+
+

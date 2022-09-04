@@ -1,0 +1,116 @@
+#store {
+    direction: ltr;
+
+
+
+    .store-caption-slider {
+        margin: 2rem auto;
+
+        .caption {
+            border-radius: 18px;
+
+            .row {
+                align-items: center;
+
+                p {
+                    color: white;
+                    font-size: 15px;
+                    line-height: 3rem;
+                    padding: 3rem 0;
+                    margin: 0;
+                }
+            }
+        }
+
+        .caption-1 {
+            background-color: #1638f0;
+        }
+
+        .caption-2 {
+            background-color: #732cdb;
+        }
+    }
+
+    .store-games-slider {
+
+        .slick-list {
+            padding: 20px 0;
+
+            .slick-slide {
+                display: block;
+                padding: 8px;
+            }
+
+            img {
+                width: 100%;
+                cursor: pointer;
+                border-radius: 25px;
+                box-shadow: 0 4px 9px rgba(0, 0, 0, 0.51) !important;
+                border: 3px solid #0606061c;
+            }
+        }
+    }
+
+    .store-softs-slider {
+        .slick-list {
+            padding: 20px 0;
+
+            .slick-slide {
+                display: block;
+                padding: 8px;
+            }
+
+            img {
+                width: 100%;
+                cursor: pointer;
+            }
+        }
+    }
+
+    #store-softs, #store-games {
+        border: 1px solid #b9b9b98f;
+        padding: 2rem 2.5rem;
+        border-radius: 30px;
+        box-shadow: 0 0px 10px rgba(0, 0, 0, 0.44) !important;
+        direction: rtl;
+        margin: 1rem auto 2rem;
+
+        .card {
+            margin-bottom: 1rem;
+            .card-header {
+                h4 {
+                    text-align: justify;
+                    font-size: 14px;
+                    line-height: 1.4;
+                    font-weight: 500;
+                    min-height: 3rem;
+                }
+            }
+
+            .card-body {
+                height: 405.2px;
+                img {
+                    padding: 1rem;
+                    margin-bottom: 1rem;
+                    max-height: 260px;
+                }
+                .description,.description p{
+                    font-size: 14px;
+                    line-height: 1.5;
+                    max-height: 65px;
+                    overflow: hidden;
+                    text-overflow: clip;
+                }
+            }
+
+            .card-footer {
+
+            }
+        }
+
+        .pagination{
+            direction: rtl;
+        }
+    }
+}
+

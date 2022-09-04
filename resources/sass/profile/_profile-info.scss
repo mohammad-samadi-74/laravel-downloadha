@@ -1,0 +1,89 @@
+#profile {
+    .card-header {
+        .card-tools {
+            font-size: 14px;
+
+            svg {
+                font-size: 16px;
+                color: #625f5f;
+            }
+
+            a {
+                font-size: 14px;
+                padding: 0.3rem .5rem;
+                min-width: 80px;
+                -webkit-transition: all .8s;
+                -moz-transition: all .8s;
+                -ms-transition: all .8s;
+                -o-transition: all .8s;
+                transition: all .8s;
+            }
+        }
+    }
+
+    .card-body {
+        #profile-menu-navigation {
+            li {
+                button {
+                    border-radius: 0px;
+                    font-size: 12px;
+                    font-weight: 500;
+                    padding: .5rem .5rem;
+                    color: #626262;
+                    border-left: 1px solid #e3e1e1;
+
+                    &.active {
+                        color: white;
+                        background-color: #8c8a8a;
+                    }
+                }
+
+            }
+        }
+
+        #profileContent {
+            padding: 1rem;
+            table {
+                tr {
+                    font-size: 14px;
+                    font-weight: 400;
+
+                    td {
+                        vertical-align: middle;
+                        padding: .5rem 1rem;
+
+                        a {
+                            font-size: 14px;
+                            padding: 0.3rem .5rem;
+                        }
+                    }
+                }
+            }
+
+            #profile_info{
+                table tr td:first-child {
+                    width: 25%;
+                }
+            }
+        }
+    }
+
+    ul.pagination{
+        justify-content: center;
+        padding: .5rem 0;
+        background-color: white;
+        box-shadow: 0 0 transparent !important;
+        border-radius: 0;
+        li{
+            width: 5%;
+            text-align: center;
+        }
+        li.page-item:first-child .page-link {
+            border-radius: 0;
+        }
+        li.page-item:last-child .page-link {
+            border-radius: 0;
+        }
+    }
+}
+

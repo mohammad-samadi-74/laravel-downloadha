@@ -1,0 +1,110 @@
+#loginForm, #registerForm, #verifyForm, #resetPassword {
+    input {
+        direction: ltr !important;
+        text-align: center !important;
+    }
+}
+
+.auth-form {
+    padding: 0px;
+    border: 0px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.34);
+
+    .form {
+        width: 40%;
+
+        h4 {
+            font-size: 21px;
+            line-height: 1.5;
+            font-weight: 400;
+            padding: 1rem;
+            border-right: 5px solid orange;
+            margin: 1rem;
+        }
+
+        label {
+            font-size: 16px;
+            margin-bottom: 0.5rem;
+            padding: 0.5rem 1.5rem;
+        }
+
+        input[type='text'], input[type='email'], input[type='password'],select,textarea {
+            font-size: 16px;
+            border: 0px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.34);
+            width: 90%;
+            position: relative;
+            margin: 0 5%;
+            text-align: center !important;
+
+            &:focus, &:focus-visible {
+                border: 0px;
+                outline: 0px;
+                box-shadow: 0 4px 10px #f08d16c4;
+            }
+        }
+
+        input[type='checkbox'] {
+            /* Double-sized Checkboxes */
+            -ms-transform: scale(1.5); /* IE */
+            -moz-transform: scale(1.5); /* FF */
+            -webkit-transform: scale(1.5); /* Safari and Chrome */
+            -o-transform: scale(1.5); /* Opera */
+            transform: scale(1.5);
+            padding: 10px;
+            margin: .8rem;
+        }
+
+        button[type='submit'] {
+            margin: 0.6rem 1rem;
+            padding: .5rem 1.5rem;
+            font-size: 17px;
+            background-color: #6c80ac;
+            border: 0px;
+            outline: 0px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
+        }
+
+        a {
+            padding: .5rem 1rem;
+            color: #5674a8;
+
+            &:hover {
+                color: #1154e6;
+                font-weight: 500;
+            }
+        }
+
+        a[role='btn'] {
+            margin: 0.6rem 1rem;
+            padding: .5rem 1.5rem;
+            font-size: 17px;
+            background-color: green;
+            border: 0px;
+            outline: 0px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
+            color: white;
+        }
+
+
+        span {
+            font-family: iran-sanse;
+            padding: .5rem 2rem;
+            margin: 0 1.5rem;
+            width: 89%;
+        }
+    }
+
+    .form-wallpaper {
+        height: 100%;
+        width: 60%;
+    }
+
+
+}
+
+
+
+
+
+

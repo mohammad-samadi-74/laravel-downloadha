@@ -1,0 +1,72 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Bootstrap
+@import "./node_modules/bootstrap-v4-rtl/scss/bootstrap-rtl";
+
+// Font Awesome
+@import "./node_modules/@fortawesome/fontawesome-free/css/all.min";
+
+// Slick
+@import "./node_modules/slick-carousel/slick/slick";
+@import "./node_modules/slick-carousel/slick/slick-theme";
+
+/* import basic variables and classes */
+@import 'variables';
+@import 'classes';
+/* import basic variables and classes */
+body{
+    font-family: $vazir , $iranSans , "Segoe UI Symbol" !important ;
+    direction: rtl;
+    text-align: right;
+
+    button,a,input.clear{
+        &:focus{
+            border: 0px;
+            outline: 0px;
+            box-shadow: 0 0 0 0.2rem rgba(251, 251, 251, 0) !important;
+        }
+    }
+
+}
+
+/* import navigation styles */
+@import 'navigation';
+@import 'logosection';
+@import 'baseNav';
+/* import navigation styles */
+
+/* import sliders and last soft styles */
+@import 'mediaSlider';
+@import 'softSlider';
+@import 'last-softs';
+/* import sliders styles */
+
+/* import posts and pagination styles */
+@import 'post';
+@import 'pagination';
+@import 'comment';
+/* import posts and pagination styles */
+
+/* import auth and profile styles*/
+@import 'auth';
+@import 'profile/profile-info';
+/* import auth and profile styles*/
+
+/* import store & cart styles*/
+@import 'store';
+@import 'storeSingleProduct';
+@import 'cart';
+/* import store & cart styles*/
+
+/* payments and orders */
+@import 'payments/orderDetails';
+/* payments and orders */
+
+/* import sidebar and footer styles*/
+@import 'sidbar';
+@import 'footer';
+/* import sidebar and footer styles*/
+
+
+

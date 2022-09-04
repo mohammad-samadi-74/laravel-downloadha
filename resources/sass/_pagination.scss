@@ -1,0 +1,17 @@
+ul.pagination{
+    justify-content: center;
+    padding: .5rem 0;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.34) !important;
+    border-radius: 10px;
+    li{
+        width: 5%;
+        text-align: center;
+    }
+    li.page-item:first-child .page-link {
+        border-radius: 0;
+    }
+    li.page-item:last-child .page-link {
+        border-radius: 0;
+    }
+}

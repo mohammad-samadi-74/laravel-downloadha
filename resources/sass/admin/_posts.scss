@@ -1,0 +1,27 @@
+#admin-posts{
+    //font-family: Vazir;
+    text-align: right;
+    direction: rtl;
+    .posts-table{
+
+        tr{
+            font-size: 12px;
+            td,th{
+                padding: 0.5rem;
+            }
+            td:first-child{
+                min-width:100px;
+            }
+        }
+        .tr:last-child{
+            border-bottom: 1px solid black;
+        }
+
+        .image-show{
+            vertical-align: middle;
+            img{
+                max-heght: 200px;
+            }
+        }
+    }
+}
